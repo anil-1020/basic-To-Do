@@ -18,7 +18,7 @@ setTodo(``);
 }
 
 
-const Deletefonk=(index)=>{
+const Deletefonk=( )=>{
 let newArr=[];
 newArr=[...data];
 newArr.splice(index,1);
@@ -68,7 +68,7 @@ const RenkTuret=()=>{
   <View style={{backgroundColor:renkdizin[index],width:300,height:40,marginBottom:5,justifyContent:`space-between`,alignItems:`center`,flexDirection:`row`}}> 
   <Text style={{marginLeft:30,fontSize:28}}>{index + 1}</Text>
    <Text style={{color:`white`,fontSize:28}}>{item}</Text> 
-  <TouchableOpacity style={{marginRight:10}}  onPress={()=> Deletefonk(index)}>
+  <TouchableOpacity style={{marginRight:10}}  onPress={()=> Deletefonk( )}>
     <Text><AntDesign name="delete" size={40} color="black" /></Text>
     </TouchableOpacity>
    </View>
